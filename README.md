@@ -53,3 +53,35 @@ BITRIX24_SUBDOMAIN=
 ```
 http://127.0.0.1:81/
 ```
+
+## ===========================
+
+## Test 2 
+
+### Lưu ý: Cần phải có ngrok: <a href="https://ngrok.com/download">Link tải</a>
+
+## Bước 1: Chạy ngrok
+
+```
+ngrok http 81
+```
+
+## Bước 2: Truy cập đường dẫn
+
+```
+https://xxx.ngrok-free.app/
+```
+
+## Bước 3: Sửa thông tin ứng dụng cục bộ
+
+`Sửa đường dẫn xử lý` và `đường dẫn cài đặt ban đầu ` theo ngrok
+
+## Bước 4: Tạo Inbound webhook và thêm vào .env
+```
+C_REST_WEBHOOK_URL=
+```
+
+## Bước 5: Exec vào container laravel và install npm
+```
+npm run dev
+```

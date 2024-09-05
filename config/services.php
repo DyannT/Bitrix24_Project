@@ -30,4 +30,10 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'bitrix24' => [
+        'app_id' => env('BITRIX24_APP_ID'),
+        'app_secret' => env('BITRIX24_APP_SECRET'),
+        'subdomain' => env('BITRIX24_SUBDOMAIN'),
+    ],
+
 ];
