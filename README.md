@@ -86,4 +86,4 @@ C_REST_WEBHOOK_URL=
 npm run dev
 ```
 
-## Bước 6: Tìm đến file app\Crest\crest.php tìm đến dòng 70 trong hàm installApp và sửa lại theo đúng
+## Bước 6: Tìm đến file app\Crest\crest.php tìm đến dòng 70 trong hàm installApp và sửa lại client_endpoint theo đúng thông tin
