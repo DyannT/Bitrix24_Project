@@ -76,7 +76,7 @@ https://xxx.ngrok-free.app/
 
 `Sửa đường dẫn xử lý` và `đường dẫn cài đặt ban đầu ` theo ngrok
 
-## Bước 4: Tạo Inbound webhook và thêm vào .env
+## Bước 4: Tạo Inbound webhook và thêm vào .env và sửa trong file app\Crest\setting.php
 ```
 C_REST_WEBHOOK_URL=
 ```
@@ -85,3 +85,5 @@ C_REST_WEBHOOK_URL=
 ```
 npm run dev
 ```
+
+## Bước 6: Tìm đến file app\Crest\crest.php tìm đến dòng 70 trong hàm installApp và sửa lại theo đúng
